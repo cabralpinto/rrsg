@@ -4,12 +4,13 @@ Features
 --------
 - Generates randomized strings from a generator string.
 - Easy-to-use and intuitive syntax.
+- No external dependencies.
 
 Usage
 -----
 .. code-block:: python
 
-    print(random_string('''
+    result = generate('''
         &age = (15, 18)
 
         $name
@@ -18,11 +19,16 @@ Usage
         Pocahontas {1%, age = 22}
 
         >[Hi! | Hey! | Good morning.] My name is $name. I am &age years old.
-    ''')[0])
+    ''').strings[0]
+    
+    print(result)
+    
+    #Example output: Hey! My name is Mark. I am 19 years old.
 
 Motivation
 ----------
 The code above is the equivalent of
+[insert python code]
 
 About rrsg
 ----------
