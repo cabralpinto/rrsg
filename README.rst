@@ -65,5 +65,5 @@ if to be made readable. Having worked in python projects where random string gen
 About rrsg
 ----------
 :Author: João Cabral Pinto
-:Version: 0.1 released 22/02/2019
+:Version: 0.1 released 25/02/2019
 :Inspiration: Orteil's RandomGen.
