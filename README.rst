@@ -66,4 +66,6 @@ About rrsg
 ----------
 :Author: João Cabral Pinto
 :Version: 0.1 released 25/02/2019
-:Inspiration: Orteil's RandomGen.
+:Inspiration: Orteil's RandomGen_
+
+.. _RandomGen: http://orteil.dashnet.org/randomgen/
