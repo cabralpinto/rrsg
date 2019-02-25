@@ -233,23 +233,8 @@ def generate(generator):
     """Returns a Results object containing the generation results and the output data."""
     return compile(generator).generate()
 
-print(_Compiler("""
-        &age = (18, 20)
-        
-        $name
-        Mark {age += 2}
-        Sally
-        
-        $adj
-        wacky {1%}
-        cool
-        
-        >[Hi! | Hey! | Good morning.] My name is $adj $name. I am &age years old.
-    """)._compile().strings_c[0])
-
-print('\n\n\n')
-
-print(generate("""
+if __name__ == '__main__':
+    print(generate("""
         &age = (18, 20)
         
         $name
@@ -261,5 +246,4 @@ print(generate("""
         cool
         
         >[Hi! | Hey! | Good morning.] My name is $adj $name. I am &age years old.
-
     """).strings())
