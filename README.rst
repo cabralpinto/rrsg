@@ -32,7 +32,7 @@ Simple example:
     
     print(string)
     
-    #Example output: Hey! My name is Mark. I am 21 years old.
+    #Example output: Hey! My name is cool Mark. I am 21 years old.
 
 Motivation
 ----------
