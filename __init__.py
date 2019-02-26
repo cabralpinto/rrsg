@@ -1,5 +1,10 @@
 import re, random as rnd
 
+class RandomGenerationError(Exception):
+    """General exception for rrsg"""
+    def __init__(self, message):
+        super().__init__(message)
+
 class _Compiler:
 
     def __init__(self, generator):
