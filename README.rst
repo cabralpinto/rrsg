@@ -15,7 +15,9 @@ Usage
 Simple example:
 
 .. code-block:: python
-
+    
+    import rrsg
+    
     string = generate("""
         &age = (18, 20)
         
