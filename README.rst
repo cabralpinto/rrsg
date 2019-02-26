@@ -30,9 +30,7 @@ Simple example:
         >[Hi! | Hey! | Good morning.] My name is $adj $name. I am &age years old.
     """).strings()
     
-    print(string)
-    
-    #Example output: Hey! My name is cool Mark. I am 21 years old.
+    print(string) #Example output: Hey! My name is cool Mark. I am 21 years old.
 
 Motivation
 ----------
