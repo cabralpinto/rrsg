@@ -18,7 +18,7 @@ Simple example:
     
     import rrsg
     
-    string = generate("""
+    string = rrsg.generate("""
         &age = (18, 20)
         
         $name
@@ -30,7 +30,7 @@ Simple example:
         cool
         
         >[Hi! | Hey! | Good morning.] My name is $adj $name. I am &age years old.
-    """).strings()
+    """).strings()[0]
     
     print(string) #Example output: Hey! My name is cool Mark. I am 21 years old.
 
